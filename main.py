@@ -101,4 +101,4 @@ def youtube_search(query: str):
 @app.get("/youtube-download/")
 def youtube_download(video_id: str):
     video_url = f"https://www.youtube.com/watch?v={video_id}"
-    return {"download_link": f"https://yt1s.com/api/ajaxSearch/index?url={video_url}"}
+    return {"download_link": f"https://yt1s.com/api/ajaxSearch/index?url={video_url}"
